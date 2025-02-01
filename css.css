@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+* {
+    
+    text-decoration: none;
+}
+
+body {
+    font-family: Inder;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(20deg, #3C084F, #860FAF 160%);
+
+}
+
+.menu {
+    color: #FFF5DA;
+}
+
+/*p {
+    font-family: Inder;
+    
+    margin: 0;
+    padding-top: 6px;
+    font-size: 30px;
+    color: white;
+} */
+
+.aviso {
+    font-family: Inder;
+    max-width: 600px;
+    margin: 20px auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-align: justify;
+    font-size: 25px;
+}
+
+header {
+    color: #FFF5DA;
+    margin: 0;
+    box-shadow: 0 2px #FFB800;
+    text-align: center;
+    padding: 18px 0 8px;
+    
+}
+.cabecalho-titulo {
+    margin: 0;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFB800;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    margin-top: 0;
+}
+label {
+    font-weight: bold;
+}
+#nome {
+    border: none;
+    background-color: rgb(209, 209, 209);
+}
+#email {
+    border: none;
+    background-color: rgb(209, 209, 209);
+}
+#celular {
+    border: none;
+    background-color: rgb(209, 209, 209);
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[trype="subimit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+footer {
+    margin: 0;
+}
+.rodape {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    border-top: 2px solid #FFB800;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:rgb(167, 167, 167);
+    height: 43px;
+    
+}
+.rodapetxt {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.rd {
+    color: rgb(167, 167, 167);
+}
+.rd:hover {
+    text-decoration: underline;
+    
+}
+
+.botao {
+    border: none;
+    background-color: #5fdf65;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Inder;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}

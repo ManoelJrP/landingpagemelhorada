@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.rd {
+    color: rgb(167, 167, 167);
+}
+.rd:hover {
+    text-decoration: underline;
+    
+}
+.cursos {
+    color: white;
+    transition: all 0.2s linear;   
+}
+.cursos:hover {
+    box-shadow: 0 5px 0 rgb(100, 11, 136);
+    scale: 1.1;
+}
+
+body {
+    width: 100%;
+    font-size: 100%;
+    background: linear-gradient(20deg, #3C084F, #860FAF 160%);
+    font-family: Inder;
+    color: white;
+    
+    
+}
+
+.cabecalho-titulo {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.cabecalho {
+    color: #FFF5DA;
+    
+    box-shadow: 0 2px #FFB800;
+    text-align: center;
+    padding: 18px 0 8px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.conteudo-parte1 {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 140px 0 100px;
+}
+
+.conteudo-parte1-imagem1 {
+    max-width: 135px;
+    min-width: 0px;
+    max-height: 200px;
+    min-height: 0px;
+    
+
+}
+
+.conteudo-parte1-texto {
+    max-width: 553px;
+    
+    font-weight: lighter;
+    font-size: 28px;
+    text-align: justify;
+}
+
+.conteudo-parte1-imagem2 {
+    max-width: 239px;
+    max-height: 224px;
+    min-width: 0;
+    min-height: 0;
+}
+
+
+
+/*---------------FIM CONTENTPART1 ----------------*/
+
+.conteudo-parte2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    max-width: 100%;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+
+.conteudo-parte2-titulo {
+    width: 700px;
+    height: 50px;
+    margin-bottom: 100px;
+    color: #FFF5DA;
+    /* text-align: center; */
+    border-top: 1px solid #FFB800;
+    font-size: 36px;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.conteudo-parte2-cursos {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: justify;
+    
+    max-width: 1100px;
+    min-width: 0px;
+    max-height: auto;
+    min-height: 0px;
+    
+}
+
+.desenvolvimento-sistema {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 40px;
+
+}
+
+.estetica {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 40px;
+}
+
+.radiologia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 40px;
+}
+
+.enfermagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.ds {
+    max-width: 199;
+    max-height: 186px;
+}
+
+.st {
+    max-width: 199;
+    max-height: 186px;
+}
+
+.radio {
+    max-width: 199;
+    max-height: 186px;
+}
+
+.enf {
+    max-width: 199;
+    max-height: 186px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    padding-left: 30px;
+    font-size: 24px;
+    gap: 20px;
+    
+    
+}
+
+
+
+h2 {
+    font-weight: lighter;
+    font-size: 28px;
+}
+h1, h4 {
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.rodape {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    border-top: 2px solid #FFB800;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:rgb(167, 167, 167);
+}
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}

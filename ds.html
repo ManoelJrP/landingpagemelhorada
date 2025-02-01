@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    
+    <link rel="stylesheet" href="css.css">
+    <title>OnePage</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="menu">
+        <h1 class="cabecalho-titulo">
+            Proz - Educar é ensinar
+        </h1>
+        </a>
+    </header>
+    <main>
+        <p class="aviso">
+            Pra finalizar sua inscrição nos nossos cursos online preecha o formulário abaixo para receber uma mensagem de confirmação!
+        </p>
+        <div class="container">
+            <h2>Preencha o formulário pra receber a mensagem de confirmação</h2>
+            <form id="formContato" onsubmit="enviarFormulario(); return false;">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite o seu nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite o seu e-mail" required>
+                <label for="celular">Celular:</label>
+                <input type="tel" id="celular" name="celular" required placeholder="Digite seu número de celular">
+                <input type="submit" value="Enviar" class="botao">
+            </form>
+            <div id="statusEnvio"></div>
+        </div>
+    </main>
+
+    <script src="javascr.js"></script>
+    <footer class="rodape">
+        <a href="index.html"><img src="./imagem/logo_proz.png" alt="" class="rodape-logo"></a>
+        <p class="rodapetxt"> <a href="#" class="rd">Sobre nós</a></p>
+        <p class="rodapetxt"><a href="#" class="rd">Feedback</a></p>
+        <p class="rodapetxt"><a href="#" class="rd">Contate-nos</a></p>
+    </footer>
+</body>
+</html>
